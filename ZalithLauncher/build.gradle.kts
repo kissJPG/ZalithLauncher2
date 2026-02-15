@@ -74,7 +74,7 @@ android {
         versionCode = launcherVersionCode
         versionName = launcherVersionName
         manifestPlaceholders["launcher_name"] = launcherAPPName
-         multiDexEnabled = true
+        multiDexEnabled = true
     }
 
     buildTypes {
