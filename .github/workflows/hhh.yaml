@@ -1,4 +1,4 @@
-name: Android CI
+name: Building late at night
 
 on:
   schedule:
