@@ -1,7 +1,10 @@
 name: Android CI
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 保留原有的手动触发功能
+  schedule:
+    # 北京时间(GMT+8)每天凌晨1点 对应 UTC时间 前一天17:00
+    - cron: '0 17 * * *'
 
 jobs:
   Build:
